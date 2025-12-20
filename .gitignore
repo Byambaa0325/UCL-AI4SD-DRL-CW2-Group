@@ -1,0 +1,46 @@
+# Dataset files (preserve directory structure)
+data/all_play_data_diverse/*.h5
+data/all_play_data_diverse/*.csv
+data/all_play_data_diverse/debug/**/*.h5
+data/all_play_data_diverse/CLVR_Jaco_Play_Dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Weights & Biases
+wandb/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+
+# Logs
+*.log
+logs/
+
