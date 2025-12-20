@@ -37,23 +37,8 @@ python -m ipykernel install --user --name coursework2 --display-name "Python (co
 ```
 
 Install dependencies:
-
-**For CPU-only (default):**
 ```bash
 pip install -r requirements.txt
-```
-
-**For CUDA support (if you have an NVIDIA GPU):**
-```bash
-# Windows:
-install-cuda.bat
-
-# Linux/Mac:
-bash install-cuda.sh
-
-# Or manually:
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-pip install -r requirements-cuda.txt
 ```
 
 ### 2. Dataset Download
